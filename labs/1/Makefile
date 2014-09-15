@@ -8,17 +8,15 @@ JC_FLAGS = -d $(BUILD_DIR)
 
 sources = $(wildcard *.java)
 
-.PHONY: default build_dir compile run clean
+.PHONY: default run clean
 
-default: build_dir compile
+default: build $(sources:.java=.class)
 
 %.class: %.java
 	$(JAVAC) $(JC_FLAGS) $<
 
-build_dir:
-	mkdir -p build
-
-compile: $(sources:.java=.class)
+build:
+	mkdir build
 
 run: default
 	$(JAVA) $(J_FLAGS) $(RUN)
