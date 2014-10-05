@@ -54,7 +54,7 @@ The output should appear as follows:
     float test_return = sales.addSale(20);
      * sales.unitsSold: 20
      * sales.moneyMade: $1386.00
-    Returns the value of that sale.
+    Returns the value of that sale:
      * test_return: 1386.0
 
     float test_return = sales.addSale(2);
