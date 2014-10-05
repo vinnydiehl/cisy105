@@ -75,53 +75,53 @@ The output should appear as follows:
     ---------- BankCharges Demo ----------
     Initializing BankCharges instance `acct`.
      * acct.checksWritten:	 0
-     * acct.endBalance:	$0.00
+     * acct.endBalance:	    $0.00
      * acct.serviceFees():	$15.00
 
     acct.setChecksWritten(0);
     acct.setEndBalance(400F);
      * acct.checksWritten:	 0
-     * acct.endBalance:	$400.00
+     * acct.endBalance:	    $400.00
      * acct.serviceFees():	$0.00
 
     acct.setChecksWritten(1);
     acct.setEndBalance(400F);
      * acct.checksWritten:	 1
-     * acct.endBalance:	$400.00
+     * acct.endBalance:	    $400.00
      * acct.serviceFees():	$0.10
 
     acct.setChecksWritten(16);
     acct.setEndBalance(400F);
      * acct.checksWritten:	 16
-     * acct.endBalance:	$400.00
+     * acct.endBalance:	    $400.00
      * acct.serviceFees():	$1.60
 
     acct.setChecksWritten(23);
     acct.setEndBalance(400F);
      * acct.checksWritten:	 23
-     * acct.endBalance:	$400.00
+     * acct.endBalance:     $400.00
      * acct.serviceFees():	$1.84
 
     acct.setChecksWritten(23);
     acct.setEndBalance(50F);
      * acct.checksWritten:	 23
-     * acct.endBalance:	$50.00
+     * acct.endBalance:     $50.00
      * acct.serviceFees():	$16.84
 
     acct.setChecksWritten(45);
     acct.setEndBalance(100F);
      * acct.checksWritten:	 45
-     * acct.endBalance:	$100.00
+     * acct.endBalance:     $100.00
      * acct.serviceFees():	$17.70
 
     acct.setChecksWritten(60);
     acct.setEndBalance(0F);
      * acct.checksWritten:	 60
-     * acct.endBalance:	$0.00
+     * acct.endBalance:     $0.00
      * acct.serviceFees():	$17.40
 
     acct.setChecksWritten(100);
     acct.setEndBalance(1000F);
      * acct.checksWritten:	 100
-     * acct.endBalance:	$1000.00
+     * acct.endBalance:     $1000.00
      * acct.serviceFees():	$4.00
