@@ -1,4 +1,4 @@
-# Lab 3
+# Lab 4
 
 To run these programs, simply run `make` from this directory. It will compile
 and run all 3 demo programs for this lab.
