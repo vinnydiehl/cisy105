@@ -32,3 +32,91 @@ inches of rainfall, and the average rainfall per month for the entire period.
 
 *Input Validation: Do not accept a number less than 1 for the number of years.
 Do not accept negative numbers for the monthly rainfall.*
+
+## Output
+
+The output should be as follows:
+
+    [vinny@gentoo 5]$ make
+    ---------- Hotel Occupancy ----------
+    How many floors does the hotel have? 4
+
+    Floor 1
+    -------
+    How many rooms? 10
+    How many are occupied? 4
+
+    Floor 2
+    -------
+    How many rooms? 10
+    How many are occupied? 7
+
+    Floor 3
+    -------
+    How many rooms? 10
+    How many are occupied? 3
+
+    Floor 4
+    -------
+    How many rooms? j
+    How many rooms? testing input validation
+    How many rooms? How many rooms? How many rooms? 8
+    How many are occupied? 3
+
+    The hotel has 38 rooms.
+    21 of them are vacant.
+    17 of them are occupied.
+    The occupancy rate is 45%.
+
+    ---------- Average Rainfall ----------
+    How many years would you like to measure? 3
+
+    Enter the inches of rainfall for each month.
+
+    Year 1
+    ------
+    January: 3
+    February: 5
+    March: 9
+    April: 7
+    May: 5
+    June: 4
+    July: 2
+    August: 3
+    September: 1
+    October: 2
+    November: 2
+    December: 3
+
+    Year 2
+    ------
+    January: 3
+    February: 5
+    March: 6
+    April: 6
+    May: 9
+    June: 5
+    July: 4
+    August: 2
+    September: 3
+    October: 2
+    November: 2
+    December: 1
+
+    Year 3
+    ------
+    January: 2
+    February: 4
+    March: 3
+    April: 5
+    May: 5
+    June: 4
+    July: 5
+    August: 3
+    September: 3
+    October: 2
+    November: 3
+    December: 3
+
+    136" of rainfall over 36 months.
+    Average rainfall per month is 4".
