@@ -16,10 +16,10 @@ import java.util.Scanner;
 import java.text.DecimalFormat;
 
 public class PayrollDemo
-{ // begin PayrollDemo
+{
   // ick, these comments are such a terrible practice, do I really need them?
     public static void main(String[] args)
-    { // begin main()
+    {
         Scanner s = new Scanner(System.in);
         // Format away trailing zeros
         DecimalFormat df = new DecimalFormat("0.##");
@@ -30,28 +30,28 @@ public class PayrollDemo
         System.out.print("Enter ID: ");
         // Validate int input
         while (!s.hasNextInt())
-        { // begin while
+        {
             System.out.print("Enter ID: ");
             s.next();
-        } // end while
+        }
         int id = s.nextInt();
 
         System.out.print("Enter hourly pay: ");
         // Validate float input
         while (!s.hasNextFloat())
-        { // begin while
+        {
             System.out.print("Enter hourly pay: ");
             s.next();
-        } // end while
+        }
         float hourlyPay = s.nextFloat();
 
         System.out.print("Enter hours worked: ");
         // Validate float input
         while (!s.hasNextFloat())
-        { // begin while
+        {
             System.out.print("Enter hours worked: ");
             s.next();
-        } // end while
+        }
         float hoursWorked = s.nextFloat();
 
         Payroll employee = new Payroll(name, id, hourlyPay, hoursWorked);
@@ -61,8 +61,8 @@ public class PayrollDemo
         System.out.printf(" - Hourly pay:   $%.2f\n", employee.getHourlyPay());
         System.out.println(" - Hours worked:  " + df.format(employee.getHoursWorked()));
         System.out.printf(" - Gross pay:    $%.2f\n", employee.grossPay());
-    } // end main()
-} // end PayrollDemo
+    }
+}
 
 /*
  * Pseudocode:

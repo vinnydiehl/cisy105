@@ -11,9 +11,9 @@ import java.util.Scanner;
 import java.text.DecimalFormat;
 
 public class FeetToInches
-{ // start FeetToInches
+{
     public static void main(String[] args)
-    { // start main()
+    {
         Scanner s = new Scanner(System.in);
         // Format away trailing zeros
         DecimalFormat df = new DecimalFormat("0.#");
@@ -21,15 +21,15 @@ public class FeetToInches
         System.out.print("Enter feet: ");
         // Validate double input
         while (!s.hasNextDouble())
-        { // begin while
+        {
             System.out.print("Enter feet: ");
             s.next();
-        } // end while
+        }
         double feet = s.nextDouble();
 
         System.out.println("Inches: " + df.format(feet * 12));
-    } // end main()
-} // end FeetToInches
+    }
+}
 
 /*
  * Pseudocode:

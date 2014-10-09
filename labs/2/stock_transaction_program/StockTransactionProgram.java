@@ -6,12 +6,12 @@
  */
 
 public class StockTransactionProgram
-{ // start StockTransactionProgram
+{
     final static int AMOUNT = 1000;
     final static float COMMISSION = .02F;
 
     public static void main(String[] args)
-    { // start main()
+    {
         float buyPrice = AMOUNT * 32.87F,
               sellPrice = AMOUNT * 33.92F,
               buyCommission = COMMISSION * buyPrice,
@@ -23,8 +23,8 @@ public class StockTransactionProgram
         System.out.printf("Commission on sell: $%.2f\n", sellCommission);
         System.out.printf("Profit: $%.2f\n", sellPrice - buyPrice -
                                              (buyCommission + sellCommission));
-    } // end main()
-} // end StockTransactionProgram
+    }
+}
 
 /*
  * Pseudocode:

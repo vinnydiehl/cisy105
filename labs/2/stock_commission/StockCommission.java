@@ -8,17 +8,17 @@
  */
 
 public class StockCommission
-{ // start StockCommission
+{
     public static void main(String[] args)
-    { // start main()
+    {
         float stockPrice = 1000 * 25.5F;
         float commission = .02F * stockPrice;
 
         System.out.printf("Stock price: $%.2f\n", stockPrice);
         System.out.printf("Commission: $%.2f\n", commission);
         System.out.printf("Total price: $%.2f\n", stockPrice + commission);
-    } // end main()
-} // end StockCommission
+    }
+}
 
 /*
  * Pseudocode:

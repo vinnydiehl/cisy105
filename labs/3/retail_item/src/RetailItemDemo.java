@@ -14,9 +14,9 @@ import src.RetailItem;
 import java.util.ArrayList;
 
 public class RetailItemDemo
-{ // begin RetailItemDemo
+{
     public static void main(String[] args)
-    { // begin main()
+    {
         // We need 3 RetailItem objects
         ArrayList<RetailItem> items = new ArrayList<RetailItem>();
         for (int i = 0; i < 3; ++i)
@@ -29,7 +29,7 @@ public class RetailItemDemo
 
         // Print the information held by each object
         for (int i = 0; i < items.size(); ++i)
-        { // begin for
+        {
             System.out.println("Item " + (i + 1) + ':');
             System.out.println(" - Description: " +
                                items.get(i).getDescription());
@@ -37,9 +37,9 @@ public class RetailItemDemo
                                items.get(i).getUnitsOnHand());
             System.out.println(" - Price: $" +
                                items.get(i).getPrice());
-        } // end for
-    } // end main()
-} // end RetailItemDemo
+        }
+    }
+}
 
 /*
  * Pseudocode (behold a fantastic mix of English, Ruby, and Python):

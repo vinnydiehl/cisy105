@@ -6,15 +6,15 @@
  */
 
 public class EnergyDrinkConsumption
-{ // start EnergyDrinkConsumption
+{
     public static void main(String[] args)
-    { // start main()
+    {
         int total = 15000;
 
         System.out.println("One or more energy drinks: " + Math.round(.18 * total));
         System.out.println("Prefer citrus-flavored drinks: " + Math.round(.58 * total));
-    } // end main()
-} // end EnergyDrinkConsumption
+    }
+}
 
 /*
  * Pseudocode:
