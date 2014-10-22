@@ -52,6 +52,12 @@ public class AreaCalculator
         System.out.printf("\nArea: %.2f\n", area);
     }
 
+    /**
+     * Prompts the user for an int and keeps asking until it receives an int.
+     *
+     * @param prompt the prompt to show the user
+     * @return the user's input
+     */
     public static int inputInt(String prompt)
     {
         prompt += ' ';
@@ -76,6 +82,14 @@ public class AreaCalculator
 
         return in;
     }
+
+    /**
+     * Prompts the user for a double and keeps asking until it receives a
+     * double.
+     *
+     * @param prompt the prompt to show the user
+     * @return the user's input
+     */
     public static double inputDouble(String prompt)
     {
         prompt += ' ';
