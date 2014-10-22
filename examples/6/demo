@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require_relative "course"
+
+puts Course.new(
+  "Foundations of Computer Science", "CISY 105",
+  Instructor.new("Pratap", "Reddy", "W325"),
+  Textbook.new("Starting Out with Java", "Gaddis", "Addison-Wesley")
+)
